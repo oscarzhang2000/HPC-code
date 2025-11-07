@@ -1,0 +1,14 @@
+name: PINN_pytorch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - notebook
+  - matplotlib
+  - scipy
+  - pandas
+  - pip
+  - pytorch
+  - pip:
+    - pyDOE
